@@ -1,0 +1,26 @@
+controller_list:
+  - name: fake_left_manipulator_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - joint_left
+      - l_joint_1
+      - l_joint_2
+      - l_joint_3
+      - l_joint_4
+      - l_joint_5
+      - l_joint_6
+  - name: fake_right_manipulator_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - joint_right
+      - r_joint_1
+      - r_joint_2
+      - r_joint_3
+      - r_joint_4
+      - r_joint_5
+      - r_joint_6
+initial:  # Define initial robot poses per group
+  - group: left_manipulator
+    pose: Home
+  - group: right_manipulator
+    pose: Home

@@ -1,0 +1,14 @@
+*.vscode
+
+*.swp
+*.pyc
+*.pcd
+*weights
+*.h5
+.DS_Store
+*/linear_z.cpp
+*/slide_control.cpp
+
+CATKIN_IGNORE
+ROBOTIS/ROBOTIS-MANIPULATOR-H/manipulator_h_gui/log/*
+hand_eye/pic/*

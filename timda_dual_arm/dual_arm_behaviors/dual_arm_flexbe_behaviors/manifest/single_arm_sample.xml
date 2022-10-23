@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Single Arm Sample">
+
+	<executable package_path="dual_arm_flexbe_behaviors.single_arm_sample_sm" class="SingleArmSampleSM" />
+	<tagstring>1.0</tagstring>
+	<author>Andy</author>
+	<date>Tue Aug 10 2021</date>
+	<description>
+		Sample behavior of single arm moving
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+	<params>
+
+		<param type="text" name="robot_name" default="right_arm" label="robot_name" hint="Sets the robot_name" />
+
+		<param type="boolean" name="en_sim" default="True" label="en_sim" hint="Sets the en_sim" />
+
+		<param type="text" name="pose_1" default="0.2, -0.25, -0.5" label="pose_1" hint="Sets the pose_1" />
+
+	</params>
+
+
+</behavior>

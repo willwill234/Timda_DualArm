@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="test_service_bell">
+
+	<executable package_path="customer_flexbe_behaviors.test_service_bell_sm" class="test_service_bellSM" />
+	<tagstring>1.0</tagstring>
+	<author>Luis</author>
+	<date>Fri Aug 27 2021</date>
+	<description>
+		example for test service bell
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>

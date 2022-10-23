@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="music_test">
+
+	<executable package_path="customer_flexbe_behaviors.music_test_sm" class="music_testSM" />
+	<tagstring>1.0</tagstring>
+	<author>Luis</author>
+	<date>Sun Aug 22 2021</date>
+	<description>
+		test music state
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>

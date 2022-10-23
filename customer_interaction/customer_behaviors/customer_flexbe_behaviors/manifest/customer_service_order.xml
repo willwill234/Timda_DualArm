@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Customer Service_order">
+
+	<executable package_path="customer_flexbe_behaviors.customer_service_order_sm" class="CustomerService_orderSM" />
+	<tagstring>2.0</tagstring>
+	<author>Luis</author>
+	<date>Thu Aug 19 2021</date>
+	<description>
+		dual arm customer service order task behaviors
+	</description>
+
+
+	<!-- Contained Behaviors -->
+	<contains name="close_drawer_2" />
+
+	<!-- Available Parameters -->
+	<params>
+
+		<param type="boolean" name="en_sim" default="False" label="en_sim" hint="Sets the en_sim" />
+
+	</params>
+
+
+</behavior>
